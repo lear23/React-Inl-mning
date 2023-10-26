@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css'
 import Logo_Footer from '../../assets/images/Logo-footer.svg'
 import Line_Footer from '../../assets/images/Element-line2.svg'
-import FooterLink from './FooterLink'
+
 
 const Footer = () => {
   return (
@@ -17,12 +17,7 @@ const Footer = () => {
                 Voluptates laborum nam ratione minus necessitatibus, iure praesentium.</p>
         </div>
 
-        <FooterLink  title="Company" url="" />
-        <FooterLink  title="Help" url="" />
-        <FooterLink  title="Resources" url="" />
-        <FooterLink  title="Link" url="" />
-
-        {/* <div className="link link-2">
+        <div className="link link-2">
             <h4>Company</h4>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -60,7 +55,7 @@ const Footer = () => {
                 <li><a href="#">How to-Blog</a></li>
                 <li><a href="#">Youtube Playlist</a></li>
             </ul>
-        </div> */}
+        </div>
 
     </div>
     <div className="line-footer">

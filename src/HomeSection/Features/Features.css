@@ -1,0 +1,133 @@
+.parent {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    border: none;
+    max-width: 1520px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  @media (min-width: 992px) {
+    .parent {
+      display: flex;
+      width: 100%;
+      height: auto;
+      border: 1px solid #e2e2e2;
+      padding: 70px 100px 80px 80px;
+      gap: 100px;
+    }
+  }
+  .parent .features {
+    display: block;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+  }
+  @media (min-width: 992px) {
+    .parent .features {
+      justify-content: start;
+      width: 460px;
+      height: auto;
+    }
+  }
+  .parent .features p {
+    font-size: 20px;
+    text-align: center;
+    color: #f94D1C;
+  }
+  @media (min-width: 992px) {
+    .parent .features p {
+      text-align: start;
+    }
+  }
+  .parent .features h2 {
+    padding-bottom: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+  }
+  @media (min-width: 992px) {
+    .parent .features h2 {
+      text-align: start;
+      max-width: 850px;
+      width: 100%;
+      height: auto;
+      padding-right: 20px;
+    }
+  }
+  .parent .features a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 12px 10px;
+    width: 100%;
+  }
+  .parent .features a i {
+    margin-left: 10px;
+    padding-top: 8px;
+    font-size: 9px;
+    font-weight: 600;
+  }
+  .parent .features a:hover {
+    background-color: #191919;
+    color: #fff;
+    box-shadow: 3px 3px 5px 5px rgba(25, 25, 25, 0.2980392157);
+  }
+  .parent .boxes {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    justify-content: center;
+  }
+  @media (min-width: 740px) {
+    .parent .boxes {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .parent .boxes .box {
+    width: auto;
+    padding: 20px;
+  }
+  @media (min-width: 992px) {
+    .parent .boxes .box {
+      width: 307px;
+      height: 220px;
+    }
+  }
+  .parent .boxes .box h3 {
+    font-size: 22px;
+    font-family: "DM sans" sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  @media (min-width: 992px) {
+    .parent .boxes .box h3 {
+      text-align: left;
+    }
+  }
+  .parent .boxes .box p {
+    font-size: 16px;
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+  @media (min-width: 992px) {
+    .parent .boxes .box p {
+      text-align: left;
+    }
+  }
+  .parent .boxes .box .box-image {
+    display: flex;
+    justify-content: center;
+  }
+  @media (min-width: 992px) {
+    .parent .boxes .box .box-image {
+      justify-content: start;
+    }
+  }

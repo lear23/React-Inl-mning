@@ -1,4 +1,6 @@
 // import React from 'react'
+import Features from '../HomeSection/Features/Features.jsx'
+import OurServices from '../HomeSection/Ourservices/OurServices.jsx'
 import Slider from '../HomeSection/Slider/Slider.jsx'
 import Footer from '../components/Footer/Footer.jsx'
 import Header from '../components/Header/Header.jsx'
@@ -10,6 +12,8 @@ const Home = () => {
       <Header />
       <ShowCase />
       <Slider />
+      <Features />
+      <OurServices />
        
 
       <Footer />
