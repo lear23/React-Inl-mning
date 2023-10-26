@@ -1,0 +1,98 @@
+.showcase {
+    background-color: #F0EFE9;
+    position: relative;
+    z-index: 0;
+  }
+  .showcase .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .showcase .container .content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  @media (min-width: 1200px) {
+    .showcase .container .content {
+      text-align: left;
+    }
+  }
+  .showcase .container .content h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+  }
+  @media (min-width: 768px) {
+    .showcase .container .content h1 {
+      font-size: 70px;
+      text-align: left;
+    }
+  }
+  @media (min-width: 1400px) {
+    .showcase .container .content h1 {
+      font-size: 86px;
+      text-align: left;
+    }
+  }
+  .showcase .container .content p {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @media (min-width: 768px) {
+    .showcase .container .content p {
+      font-size: 20px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+  .showcase .container .content .buttons-showcase {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  @media (min-width: 992px) {
+    .showcase .container .content .buttons-showcase {
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  .showcase .container .content .buttons-showcase a {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  @media (min-width: 992px) {
+    .showcase .container .content .buttons-showcase a {
+      display: inline-block;
+    }
+  }
+  .showcase .container .content .buttons-showcase a:hover {
+    border: none;
+    box-shadow: 3px 3px 3px 3px rgba(25, 25, 25, 0.4078431373);
+  }
+  .showcase .container img {
+    display: none;
+    margin-right: -50px;
+    margin-bottom: -30px;
+  }
+  @media (min-width: 1200px) {
+    .showcase .container img {
+      display: block;
+    }
+  }
+  .showcase .line2 {
+    position: absolute;
+    bottom: 0px;
+    left: -15px;
+    z-index: -1;
+  }
