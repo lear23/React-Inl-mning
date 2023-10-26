@@ -1,0 +1,221 @@
+.about {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  @media (min-width: 1200px) {
+    .about {
+      display: flex;
+      padding-top: 120px;
+      padding-bottom: 110px;
+      gap: 100px;
+    }
+  }
+  .about .image-about {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  @media (min-width: 1200px) {
+    .about .image-about {
+      display: flex;
+      justify-content: start;
+      align-items: end;
+    }
+  }
+  .about .image-about img {
+    width: 100%;
+    height: auto;
+  }
+  @media (min-width: 992px) {
+    .about .image-about img {
+      margin-left: 80px;
+    }
+  }
+  .about .image-about .founder {
+    position: absolute;
+    bottom: 0;
+    padding: 20px 35px 35px 15px;
+    background-color: #beebff;
+    width: 260px;
+    height: 130px;
+    margin-bottom: 20px;
+  }
+  @media (min-width: 768px) {
+    .about .image-about .founder {
+      padding: 40px 65px 55px 25px;
+      width: 360px;
+      height: 182px;
+      animation-name: example;
+      animation-duration: 14s;
+      animation-iteration-count: infinite;
+    }
+  }
+  @keyframes example {
+    0% {
+      background-color: #beebff;
+      left: 0px;
+      bottom: 0px;
+    }
+    25% {
+      background-color: #beebff 247, 247, 150;
+      left: 200px;
+      bottom: 0px;
+    }
+    50% {
+      background-color: #beebff;
+      left: 200px;
+      bottom: 200px;
+    }
+    75% {
+      background-color: #beebff;
+      left: 0px;
+      bottom: 200px;
+    }
+    100% {
+      background-color: #beebff;
+      left: 0px;
+      bottom: 0px;
+    }
+  }
+  .about .image-about .founder h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+  }
+  @media (min-width: 992px) {
+    .about .image-about .founder h3 {
+      font-size: 20px;
+    }
+  }
+  .about .image-about .founder h3 b {
+    font-size: 12px;
+    color: #f94D1C;
+  }
+  @media (min-width: 992px) {
+    .about .image-about .founder h3 b {
+      font-size: 16px;
+    }
+  }
+  .about .image-about .founder p {
+    font-size: 12px;
+    color: #191919;
+    text-align: left;
+  }
+  @media (min-width: 992px) {
+    .about .image-about .founder p {
+      font-size: 16px;
+    }
+  }
+  .about .about-company {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  @media (min-width: 1200px) {
+    .about .about-company {
+      justify-content: center;
+      text-align: left;
+      margin-right: 60px;
+    }
+  }
+  .about .about-company h5 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #f94D1C;
+  }
+  @media (min-width: 1200px) {
+    .about .about-company h5 {
+      text-align: left;
+    }
+  }
+  .about .about-company h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+  }
+  @media (min-width: 1200px) {
+    .about .about-company h2 {
+      text-align: left;
+      padding-bottom: 60px;
+    }
+  }
+  .about .about-company p {
+    color: #5E5E5E;
+    text-align: center;
+  }
+  @media (min-width: 1200px) {
+    .about .about-company p {
+      text-align: left;
+      margin-bottom: 30px;
+    }
+  }
+  .about .about-company .button-intro {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (min-width: 992px) {
+    .about .about-company .button-intro {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  .about .about-company .button-intro .botton-video {
+    gap: 30px;
+  }
+  .about .about-company .button-intro .botton-video .btn-theme-3 {
+    display: inline-block;
+    justify-self: center;
+    align-items: center;
+  }
+  @media (min-width: 992px) {
+    .about .about-company .button-intro .botton-video .btn-theme-3 {
+      display: flex;
+      justify-self: center;
+      align-items: center;
+    }
+  }
+  .about .about-company .button-intro .botton-video a {
+    font-size: 1.2em;
+  }
+  .about .about-company .button-intro .botton-video a i {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  .about .about-company .button-intro .botton-video a:hover {
+    border: none;
+    box-shadow: 3px 3px 5px 5px rgba(25, 25, 25, 0.4078431373);
+  }
+  .about .about-company .button-intro .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-right: 10px;
+  }
+  .about .about-company .button-intro .intro:hover {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px 5px rgba(25, 25, 25, 0.4078431373);
+  }
+  .about .about-company .button-intro .intro a {
+    text-decoration: none;
+    color: #191919;
+    font-size: 20px;
+  }
+  .about .about-company .button-intro .intro img {
+    width: 5rem;
+    padding: 10px;
+    color: #191919;
+  }
+  

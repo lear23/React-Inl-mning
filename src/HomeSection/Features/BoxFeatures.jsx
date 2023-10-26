@@ -4,7 +4,7 @@ const BoxFeatures = ({title, text,ImageSrc}) => {
   return (
    
     <div>
-        <div className="box-image">
+        <div >
             <img src={ImageSrc} alt="startup business" />
         </div>
       

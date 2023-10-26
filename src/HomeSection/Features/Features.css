@@ -125,6 +125,7 @@
   .parent .boxes .box .box-image {
     display: flex;
     justify-content: center;
+
   }
   @media (min-width: 992px) {
     .parent .boxes .box .box-image {
