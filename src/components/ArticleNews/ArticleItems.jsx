@@ -1,6 +1,8 @@
 import React from 'react'
 
+
 const ArticleItems = ({ImageSrc, description, title, text, fras}) => {
+
   return (
          <div className="items">
              <img src={ImageSrc} alt={description} />

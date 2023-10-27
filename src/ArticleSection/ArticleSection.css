@@ -1,0 +1,242 @@
+main {
+  display: block;
+}
+main .classroom {
+  display: block;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  main .classroom {
+    display: block;
+    text-align: left;
+  }
+}
+main .classroom h2 {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "DM sans", sans-serif;
+  padding-top: 50px;
+}
+@media (min-width: 1200px) {
+  main .classroom h2 {
+    padding-top: 130px;
+  }
+}
+main .classroom .date {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 1200px) {
+  main .classroom .date {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 40px;
+  }
+}
+main .classroom .date p {
+  padding-right: 10px;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "DM sans", sans-serif;
+}
+@media (min-width: 920px) {
+  main .classroom .date p {
+    font-size: 20px;
+  }
+}
+main .classroom .date p img {
+  padding-right: 10px;
+}
+main .container {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0px;
+}
+@media (min-width: 1200px) {
+  main .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+main .container .employee {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 992px) {
+  main .container .employee {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin: 0px;
+  }
+}
+main .container .employee .work {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  main .container .employee .work {
+    display: block;
+    justify-content: start;
+    padding-right: 140px;
+  }
+}
+main .container .employee .work img {
+  width: 100%;
+  height: auto;
+}
+main .container .employee .work p {
+  display: flex;
+  padding-top: 50px;
+  line-height: 2;
+}
+main .container .employee .articles {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+main .container .employee .articles .search {
+  background-color: #f3f3f3;
+  display: inline-block;
+  align-items: center;
+  border-radius: 25px;
+  margin-bottom: 40px;
+  width: 100%;
+  padding: 12px;
+}
+@media (min-width: 992px) {
+  main .container .employee .articles .search {
+    display: flex;
+    padding: 8px 18px;
+  }
+}
+main .container .employee .articles .search input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #868686;
+}
+main .container .employee .articles .article-box {
+  display: block;
+  justify-content: left;
+  width: 100%;
+  height: auto;
+  border: 1px solid #191919;
+  padding: 45px 40px;
+  margin-bottom: 40px;
+  line-height: normal;
+}
+@media (min-width: 992px) {
+  main .container .employee .articles .article-box {
+    text-align: left;
+  }
+}
+main .container .employee .articles .article-box h2 {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "DM sans", sans-serif;
+}
+main .container .employee .articles .article-box h3 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "DM sans", sans-serif;
+}
+main .container .employee .articles .article-box p {
+  font-size: 14px;
+}
+main .container .employee .article-box2 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  border: 1px solid #191919;
+  padding: 45px 40px;
+  line-height: normal;
+}
+@media (min-width: 990px) {
+  main .container .employee .article-box2 {
+    display: block;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+  }
+}
+main .container .employee .article-box2 h2 {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "DM sans", sans-serif;
+  text-align: center;
+}
+main .container .employee .article-box2 p {
+  font-size: 14px;
+}
+main .container .employee .article-box2 p b {
+  font-size: 16px;
+  font-family: "DM sans" sans-serif;
+  font-weight: 700;
+}
+main .coma {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+@media (min-width: 992px) {
+  main .coma {
+    width: 65%;
+    text-align: left;
+    padding-bottom: 70px;
+    padding-top: 70px;
+  }
+}
+main .coma h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  padding: 10px;
+  font-size: 22px;
+  padding-bottom: 80px;
+}
+@media (min-width: 992px) {
+  main .coma h2 {
+    padding-left: 50px;
+  }
+}
+main .coma p {
+  font-size: 16px;
+}
+main .coma .buttons {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+@media (min-width: 992px) {
+  main .coma .buttons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+}
+main .coma .buttons .btn-theme {
+  padding: 16px 35px;
+  border-radius: 30px;
+  background-color: #f3f3f3;
+  border: none;
+  color: #191919;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}

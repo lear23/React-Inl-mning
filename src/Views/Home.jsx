@@ -1,6 +1,6 @@
 // import React from 'react'
 import About from '../HomeSection/About/About.jsx'
-import ArticleNews from '../HomeSection/ArticleNews/ArticleNews.jsx'
+import ArticleNews from '../components/ArticleNews/ArticleNews.jsx'
 import Choose from '../HomeSection/Choose/Choose.jsx'
 import Features from '../HomeSection/Features/Features.jsx'
 import MeetOurTeam from '../HomeSection/MeetOurTeam/MeetOurTeam.jsx'
