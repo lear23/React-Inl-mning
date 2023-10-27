@@ -1,0 +1,95 @@
+.meet-our-team .testimonial {
+    padding-bottom: 20px;
+  }
+  @media (min-width: 992px) {
+    .meet-our-team .testimonial {
+      padding-bottom: 120px;
+    }
+  }
+  .meet-our-team .testimonial .container {
+    background-color: #Ffffff;
+    width: 100%;
+    height: auto;
+  }
+  @media (min-width: 992px) {
+    .meet-our-team .testimonial .container {
+      padding: 120px 100px 80px 100px;
+    }
+  }
+  .meet-our-team .testimonial .container .client-says {
+    padding-bottom: 40px;
+  }
+  .meet-our-team .testimonial .container .client-says p {
+    color: #f94D1C;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .meet-our-team .testimonial .container .client-says h2 {
+    font-family: "DM sans", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .meet-our-team .testimonial .container .customers-rating {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (min-width: 992px) {
+    .meet-our-team .testimonial .container .customers-rating {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .meet-our-team .testimonial .container .customers-rating .clients {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  @media (min-width: 992px) {
+    .meet-our-team .testimonial .container .customers-rating .clients {
+      margin: 48px 50px 48px 30px;
+      margin: 30px;
+    }
+  }
+  .meet-our-team .testimonial .container .customers-rating .clients img {
+    padding-bottom: 20px;
+  }
+  .meet-our-team .testimonial .container .customers-rating .clients p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #191919;
+    padding-bottom: 20px;
+    line-height: 2;
+  }
+  .meet-our-team .testimonial .container .customers-rating .clients .customers {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+  }
+  .meet-our-team .testimonial .container .customers-rating .clients .customers .img-customer {
+    display: block;
+    justify-content: center;
+  }
+  .meet-our-team .testimonial .container .customers-rating .clients .customers .img-customer h3 {
+    font-family: "DM sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .meet-our-team .testimonial .container .customers-rating .clients .customers .img-customer span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f94D1C;
+  }
+  .meet-our-team .testimonial .container .black-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .meet-our-team .testimonial .container .black-button a:hover {
+    box-shadow: 3px 3px 5px 5px rgba(25, 25, 25, 0.4431372549);
+  }

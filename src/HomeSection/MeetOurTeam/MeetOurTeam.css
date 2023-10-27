@@ -1,0 +1,114 @@
+.meet-our-team {
+    background-color: #edcf86;
+    padding: 16px;
+  }
+  .meet-our-team .team {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 55px;
+    padding-top: 60px;
+  }
+  @media (min-width: 920px) {
+    .meet-our-team .team {
+      justify-content: left;
+      text-align: left;
+      padding-bottom: 95px;
+      padding-top: 120px;
+    }
+  }
+  .meet-our-team .team p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #f66f37;
+    padding: 10px;
+  }
+  .meet-our-team .team .team-title {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  @media (min-width: 992px) {
+    .meet-our-team .team .team-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: left;
+    }
+  }
+  .meet-our-team .team .team-title h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  @media (min-width: 992px) {
+    .meet-our-team .team .team-title h2 {
+      text-align: left;
+      font-size: 45px;
+      font-weight: 700;
+      font-family: "DM sans", sans-serif;
+    }
+  }
+  .meet-our-team .team .team-title a {
+    border: 1px solid #191919;
+    padding: 12px 50px;
+  }
+  .meet-our-team .team .team-title a:hover {
+    border: none;
+    box-shadow: 3px 3px 5px 5px rgba(25, 25, 25, 0.4078431373);
+  }
+  .meet-our-team .team-images {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    gap: 30px;
+  }
+  @media (min-width: 992px) {
+    .meet-our-team .team-images {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      place-items: center;
+      text-align: center;
+      padding-bottom: 20px;
+      text-align: left;
+    }
+  }
+  @media (min-width: 1400px) {
+    .meet-our-team .team-images {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      place-items: center;
+      text-align: center;
+      padding-bottom: 50px;
+      text-align: left;
+    }
+  }
+  .meet-our-team .team-images .img-team {
+    justify-content: center;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    transition: none;
+  }
+  @media (min-width: 576px) {
+    .meet-our-team .team-images .img-team {
+      transition: width 2s, height 2s, transform 1s;
+    }
+  }
+  .meet-our-team .team-images .img-team:hover {
+    background-color: white;
+    transform: none;
+    padding: 0;
+    text-align: center;
+  }
+  @media (min-width: 576px) {
+    .meet-our-team .team-images .img-team:hover {
+      transform: scale(1.1);
+    }
+  }
+  .meet-our-team .dot2 {
+    padding-bottom: 70px;
+    text-align: center;
+  }   

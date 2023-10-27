@@ -1,0 +1,99 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css");
+
+.container-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-section .container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  @media (min-width: 1100px) {
+    .container-section .container {
+      display: flex;
+      justify-content: center;
+      padding-top: 120px;
+      padding-bottom: 60px;
+      gap: 30px;
+    }
+  }
+  .container-section .container .box1 {
+    display: block;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 30px;
+    padding-top: 20px;
+  }
+  @media (min-width: 992px) {
+    .container-section .container .box1 {
+      display: block;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      height: auto;
+      padding: 28px 50px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .container-section .container .box1 {
+      display: block;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      padding: 50px 60px;
+    }
+  }
+  .container-section .container .box1 img {
+    float: none;
+    margin-bottom: 20px;
+  }
+  @media (min-width: 1400px) {
+    .container-section .container .box1 img {
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 45px;
+    }
+  }
+  .container-section .container .box1 h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+  @media (min-width: 1400px) {
+    .container-section .container .box1 h2 {
+      text-align: left;
+    }
+  }
+  .container-section .container .box1 a {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: #d1d1d1;
+  }
+  @media (min-width: 1400px) {
+    .container-section .container .box1 a {
+      text-align: left;
+    }
+  }
+  .container-section .container .box1 a p {
+    color: #191919;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .container-section .container .box1:hover {
+    background-color: #f9d783;
+    box-shadow: 3px 3px 5px 5px rgba(25, 25, 25, 0.3058823529);
+  }
+  .container-section .container .box1:hover p {
+    color: black;
+  }
