@@ -2,20 +2,27 @@ import React from 'react'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import SubHeader from '../components/SubHeader/SubHeader'
-import ContactSection from '../ContactSections/ContactSection'
+import SectionContact from '../SectionsContact/SectionContact'
+import FormSection from '../SectionsContact/FormSection/FormSection'
+import MapSection from '../SectionsContact/MapSection'
+
+
 
 
 const Contacts = () => {
   return (
-    <div className='wrapper'>
-      <Header /> 
-      <SubHeader />
-      <ContactSection />
+  <div className="wrapper">
 
-
-      <Footer />
+      
+            <Header /> 
+            <SubHeader />
+            <SectionContact />
+            <FormSection />
+            <MapSection />
+            <Footer />
+   
        
-    </div>
+  </div>
 
   )
 }

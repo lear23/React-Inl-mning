@@ -1,0 +1,62 @@
+.container-section form {
+    width: 100%;
+    height: auto;
+    margin-bottom: 120px;
+    margin-top: 30px;
+    background-color: #F0EFE9;
+  }
+  .container-section form ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    padding: 25px 47px 10px 50px;
+    margin: 0px;
+  }
+  @media (min-width: 768px) {
+    .container-section form ul {
+      padding: 20px 147px 20px 150px;
+    }
+  }
+  .container-section form ul .title h2 {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container-section form ul .text-form {
+    margin-bottom: 20px;
+  }
+  .container-section form ul .text-form input {
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+    background-color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+  }
+  .container-section form ul textarea {
+    width: 100%;
+    height: auto;
+    font-family: "DM Sans", sans-serif;
+    background-color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+  }
+  .container-section form ul .form-button {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .container-section form ul .form-button a:hover {
+    box-shadow: 3px 3px 5px 5px rgba(25, 25, 25, 0.3019607843);
+  }
+  .container-section form ul .form-button .btn-theme {
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
