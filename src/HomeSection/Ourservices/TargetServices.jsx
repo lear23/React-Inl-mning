@@ -2,11 +2,11 @@ import React from 'react'
 
 const TargetServices = ({title, text, url}) => {
   return (
-    <div class="tarjet">
+    <div className="tarjet">
         <hr />
         <h4>{title}</h4>
         <p>{text}</p>
-        <a href={url}><i class="fi fi-sr-arrow-circle-right"></i></a>
+        <a href={url}><i className="fi fi-sr-arrow-circle-right"></i></a>
     </div>
   )
 }

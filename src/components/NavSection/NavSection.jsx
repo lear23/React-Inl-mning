@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navsection.css'
 import Logo_Crito from '../../assets/images/Logo.svg'
+import { NavLink } from 'react-router-dom'
 
 const NavSection = () => {
   return (
@@ -37,10 +38,10 @@ const NavSection = () => {
                 </div>
                 <div className="main-menu">
                     <nav>
-                        <a className="home-bold" href="index.html">Home</a>
-                        <a href="service.html">Service</a>
-                        <a href="news.html">News</a>
-                        <a href="contact.html">Contact</a>
+                        <NavLink className="home-bold" to="/">Home</NavLink>
+                        <NavLink to="/">Service</NavLink>
+                        <NavLink to="/">News</NavLink>
+                        <NavLink to="/">Contact</NavLink>
                     </nav>
                     <a className="btn-theme" href="login.html">Login<i className="mindre fi fi-br-arrow-up-right"></i></a>
                 </div>

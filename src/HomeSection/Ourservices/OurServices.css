@@ -149,15 +149,18 @@
     border: none;
     box-shadow: 3px 3px 3px 3px rgba(25, 25, 25, 0.4078431373);
   }
-  .our-services .line {
+  .our-services .line5 {
     display: none;
     position: absolute;
-    right: 0px;
-    bottom: 0px;
-    z-index: -1;
+   
+   
   }
   @media (min-width: 992px) {
-    .our-services .line {
+    .our-services .line5 {
       display: flex;
+      right: 0px;
+      bottom: 0px;
+      z-index: -1;
+    
     }
   }
