@@ -11,8 +11,7 @@ const NewsDetails = () => {
        <Header />
        <NewsSubHeader />
        <ArticleSection />
-       <ArticleNews />
-      
+       <ArticleNews />      
        <Footer />
 
     </div>

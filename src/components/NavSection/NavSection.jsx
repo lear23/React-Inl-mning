@@ -1,13 +1,13 @@
 import React from 'react'
 import './Navsection.css'
 import Logo_Crito from '../../assets/images/Logo.svg'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const NavSection = () => {
   return (
     <header>
      <div className="container">
-            <a href="index.html"><img src={Logo_Crito} alt="crito logotype" /></a>
+            <Link to="/"><img src={Logo_Crito} alt="crito logotype" /></Link>
             <i className="menu-bars fi fi-br-bars-staggered"></i>
             <div className="menu">
                 <div className="top-menu">
@@ -39,9 +39,9 @@ const NavSection = () => {
                 <div className="main-menu">
                     <nav>
                         <NavLink className="home-bold" to="/">Home</NavLink>
-                        <NavLink to="/">Service</NavLink>
-                        <NavLink to="/">News</NavLink>
-                        <NavLink to="/">Contact</NavLink>
+                        <NavLink to="/Service">Service</NavLink>
+                        <NavLink to="/News">News</NavLink>
+                        <NavLink to="/Contacts">Contact</NavLink>
                     </nav>
                     <a className="btn-theme" href="login.html">Login<i className="mindre fi fi-br-arrow-up-right"></i></a>
                 </div>

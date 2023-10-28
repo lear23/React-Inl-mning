@@ -1,8 +1,12 @@
 import React from 'react'
+import NotFoundSida from '../NotFoundSida/NotFoundSida'
+
 
 const NotFound = () => {
   return (
-    <div>404 Not Found</div>
+    <div >
+      <NotFoundSida />
+    </div>
   )
 }
 
