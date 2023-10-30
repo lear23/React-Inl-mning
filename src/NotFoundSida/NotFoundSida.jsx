@@ -1,6 +1,7 @@
 import React from 'react';
 import './NotFoundSida.css'
 import Dead from '../assets/images/grim.jpg';
+import Dog from '../assets/images/hund.jpg'
 import { Link } from 'react-router-dom';
 
 const NotFoundSida = () => {
@@ -11,7 +12,7 @@ const NotFoundSida = () => {
   return (
     <main>
       <div className='container-bild'>
-        <img src={Dead} alt="Dead image" />
+        <img src={Dog} alt="Dead image" />
         <h2>404 Page Not Found</h2>
         {/* <button className='' onClick={handleReturnClick}></button> */}
         <Link className="btn-theme" onClick={handleReturnClick} to="/">Klicka Här För Att Återvända<i className="mindre fi fi-br-arrow-up-right"></i></Link>
