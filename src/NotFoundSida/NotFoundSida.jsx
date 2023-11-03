@@ -12,14 +12,13 @@ const NotFoundSida = () => {
   return (
     <main className='container'>
       <div className='container-notfound'>
-        <h2>404 Page Not Found</h2>
+        <h2 >404 Page Not Found</h2>
         <div className="dead">
          
            <img src={Dead} alt="Dead image" />
         </div>
         <div className="notfound">
-             {/* <h2>404 Page Not Found</h2> */}
-              {/* <button className='' onClick={handleReturnClick}></button> */}
+           
              <Link className="btn-theme" onClick={handleReturnClick} to="/">Klicka Här För Att Återvända<i className="mindre fi fi-br-arrow-up-right"></i></Link>
         </div>
         
