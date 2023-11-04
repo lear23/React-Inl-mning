@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const NotFoundSida = () => {
   const handleReturnClick = () => {
-    // Lägg till din återvändande logik här
+   
   };
 
   return (
