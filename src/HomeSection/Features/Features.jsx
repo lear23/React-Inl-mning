@@ -1,6 +1,7 @@
 import React from 'react'
 import './Features.css'
 import BoxFeatures from './BoxFeatures'
+import Buttons from '../../components/buttons/Buttons'
 import Business_image from '../../assets/images/Business Advice.png'
 import Startup_image from '../../assets/images/Startup Business.png'
 import Financial_image from '../../assets/images/financial advice.png'
@@ -16,8 +17,7 @@ const Features = () => {
                 <div className="features-title">
                     <p>Features</p>
                     <h2>Our Accounting is trusted by thousand of companies</h2>
-                    <a className="btn-theme" href="consulting.html">Learn More<i
-                            className="mindre fi fi-br-arrow-up-right"></i></a>
+                    <Buttons type='btn-theme' url='/consulting' text='Learn More' />
                 </div>
             </div>
             <div className="boxes">

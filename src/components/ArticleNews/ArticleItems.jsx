@@ -16,3 +16,4 @@ const ArticleItems = ({ImageSrc, description, title, text, fras}) => {
 }
 
 export default ArticleItems
+

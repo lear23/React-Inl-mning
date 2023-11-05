@@ -11,7 +11,7 @@ const NewsDetails = () => {
        <Header />
        <NewsSubHeader />
        <ArticleSection />
-       <ArticleNews />      
+       <ArticleNews backgroundColor="#f0efe9"/>      
        <Footer />
 
     </div>

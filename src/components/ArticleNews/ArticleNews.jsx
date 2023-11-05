@@ -1,23 +1,24 @@
 import React from 'react'
 import './ArticleNews.css'
+import Buttons from '../../components/buttons/Buttons'
 import Group_One from '../../assets/images/Group.png'
 import Group_Two from '../../assets/images/Group3.png'
 import Group_Three from '../../assets/images/Group2.png'
 import dot from '../../assets/images/dot.png'
 import ArticleItems from './ArticleItems'
 
-const ArticleNews = () => {
+const ArticleNews = ({ backgroundColor }) => {
+
   return (
     
-    <article>
+    <article style={{ backgroundColor: backgroundColor }}>
         <div className="container">
             <div className="news-article">
                 <div className="title">
                     <p>Article & News</p>
                     <h2>Get Every Single Articles & News</h2>
                 </div>
-                <a className="btn-theme" href="login.html">Browse Articles<i
-                        className="mindre fi fi-br-arrow-up-right"></i></a>
+                <Buttons type='btn-theme' url='/News' text='Browse Articles' />
             </div>
 
             <div className="new-image">
@@ -37,3 +38,5 @@ const ArticleNews = () => {
 }
 
 export default ArticleNews
+
+

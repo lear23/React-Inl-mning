@@ -1,5 +1,6 @@
 import React from 'react'
 import './Projects.css'
+import Buttons from '../../components/buttons/Buttons'
 import ProjectsArticle from './ProjectsArticle'
 import Article_one from '../../assets/images/article-image1.png'
 import Article_Two from '../../assets/images/image2.png'
@@ -22,8 +23,7 @@ const Projects = () => {
 
                 </div>
                 <div className="center-content">
-                    <a className="btn-black" href="projects.html">All Recent Projects<i
-                            className="mindre fi fi-br-arrow-up-right"></i></a>
+                    <Buttons type='black' url='/news' text='All Recent Projects' />
                 </div>
             </div>
         </section>

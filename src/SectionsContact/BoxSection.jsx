@@ -1,7 +1,7 @@
 import React from 'react'
 
 const BoxSection = ({ImageScr, description,title, url, text }) => {
-//  const lines = text.split('\n'); 
+
     
   return (
         <div className="box1">

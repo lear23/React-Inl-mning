@@ -1,5 +1,6 @@
 import React from 'react'
 import './MeetOurTeam.css'
+import Buttons from '../../components/buttons/Buttons'
 import ImgOfOurTeam from './ImgOfOurTeam'
 import Team_Image from '../../assets/images/team1.png'
 import Team_Image2 from '../../assets/images/team2.png'
@@ -16,8 +17,7 @@ const MeetOurTeam = () => {
                     <p>Meet Our Team</p>
                     <div className="team-title">
                         <h2>Experience Team Members</h2>
-                        <a className="btn-theme" href="login.html">Browse Team<i
-                                className="mindre fi fi-br-arrow-up-right"></i></a>
+                        <Buttons url='/Contact'  text='Browse Team' />
                     </div>
                 </div>
                 <div className="team-images">

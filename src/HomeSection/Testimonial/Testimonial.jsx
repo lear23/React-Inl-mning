@@ -1,5 +1,6 @@
 import React from 'react'
 import './Testimonial.css'
+import Buttons from '../../components/buttons/Buttons'
 import Start from '../../assets/images/Star.png'
 import Customer_one from '../../assets/images/customer1.png'
 import Customer_two from '../../assets/images/customer2.png'
@@ -29,8 +30,7 @@ const Testimonial = () => {
 
                     </div>
                     <div className="black-button">
-                        <a className="btn-black" href="projects.html">All Reviews<i
-                                className="mindre fi fi-br-arrow-up-right"></i></a>
+                        <Buttons type='black' url='/projects' text='All Reviews' />
                     </div>
                 </div>
             </div>

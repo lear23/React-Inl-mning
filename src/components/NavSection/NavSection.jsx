@@ -2,6 +2,7 @@ import React from 'react'
 import './Navsection.css'
 import Logo_Crito from '../../assets/images/Logo.svg'
 import { Link, NavLink } from 'react-router-dom'
+import Buttons from '../buttons/Buttons'
 
 const NavSection = () => {
   return (
@@ -43,7 +44,7 @@ const NavSection = () => {
                         <NavLink to="/News">News</NavLink>
                         <NavLink to="/Contacts">Contact</NavLink>
                     </nav>
-                    <a className="btn-theme" href="login.html">Login<i className="mindre fi fi-br-arrow-up-right"></i></a>
+                    <Buttons type='btn-theme' text='Login' url='/login'/>                   
                 </div>
             </div>
         </div>

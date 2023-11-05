@@ -12,6 +12,7 @@ main .classroom {
   }
 }
 main .classroom h2 {
+  display: block;
   font-size: 45px;
   font-weight: 700;
   font-family: "DM sans", sans-serif;
@@ -19,6 +20,7 @@ main .classroom h2 {
 }
 @media (min-width: 1200px) {
   main .classroom h2 {
+    
     padding-top: 130px;
   }
 }
@@ -230,7 +232,7 @@ main .coma .buttons {
     gap: 10px;
   }
 }
-main .coma .buttons .btn-theme {
+/* main .coma .buttons .btn-theme {
   padding: 16px 35px;
   border-radius: 30px;
   background-color: #f3f3f3;
@@ -239,4 +241,4 @@ main .coma .buttons .btn-theme {
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 20px;
-}
+} */

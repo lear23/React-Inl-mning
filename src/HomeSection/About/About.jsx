@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import Buttons from '../../components/buttons/Buttons'
 import Samantha_image from '../../assets/images/Samantha.png'
 import Video_icon from '../../assets/images/Video.svg'
 
@@ -29,9 +30,7 @@ const About = () => {
 
                     <div className="button-intro">
                         <div className="botton-video">
-
-                            <a className="btn-theme-3" href="consulting.html">Learn More<i
-                                    className="mindre fi fi-br-arrow-up-right"></i></a>
+                        <Buttons type='btn-theme' url='/consulting' text='Learn More' />
                         </div>
                         <div className="intro">
                             <a href="#"><img src={Video_icon} alt="play" />Intro Video</a>

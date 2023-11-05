@@ -2,6 +2,7 @@ import React from 'react'
 import './OurServices.css'
 import TargetServices from './TargetServices'
 import Line_Ourservices from '../../assets/images/Element.png'
+import Buttons from '../../components/buttons/Buttons'
 
 const OurServices = () => {
   return (
@@ -22,8 +23,7 @@ const OurServices = () => {
 
         </div>
         <div className="center-content">
-            <a className="btn-transparent" href="projects.html">Browse Service<i
-                    className="mindre fi fi-br-arrow-up-right"></i></a>
+          <Buttons  type='transparent' url='/projects' text='Browse Service' />
 
         </div>
         <div className="line5">

@@ -83,29 +83,24 @@ body, html {
     color: #191919;
     border: none;
   }
-  
-  .btn-theme-3 {
-    background-color: #191919;
-    color: #fff;
+
+  .btn-grey {
+    background-color:#f3f3f3;
+    color: #191919;
     text-decoration: none;
-    padding: 12px 40px;
-    text-align: center;
-    margin-top: 20px;
+    padding: 12px 28px;
     font-weight: 600;
     border-radius: 30px;
   }
-  @media (min-width: 1200px) {
-    .btn-theme-3 {
-      padding: 17px 50px;
-    }
-  }
-  .btn-theme-3 i {
+  /* .btn-grey i {
     margin-left: 8px;
     padding-bottom: 15px;
     font-size: 9px;
     font-weight: bolder;
-  }
-  .btn-theme-3:hover {
+  } */
+  .btn-grey:hover {
     background-color: #f9d783;
     color: #191919;
+    border: none;
   }
+  

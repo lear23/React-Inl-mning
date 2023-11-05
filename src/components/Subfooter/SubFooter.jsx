@@ -1,6 +1,7 @@
 import React from 'react'
 import './SubFooter.css'
 import SubFooter_Line from '../../assets/images/Element-line.svg'
+import Buttons from '../buttons/Buttons'
 
 const SubFooter = () => {
   return (
@@ -11,7 +12,8 @@ const SubFooter = () => {
             <h2>Get News Updates By Signup </h2>
             <form action="">
                 <input type="email" placeholder="username@domain.com" />
-                <a className="btn-theme" href="login.html">Subscribe<i className="mindre fi fi-br-arrow-up-right"></i></a>
+                <Buttons type='btn-theme' url='/' text='Subscribe' />
+               
             </form>
         </div>
     </section>

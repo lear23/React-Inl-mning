@@ -5,6 +5,7 @@ import OvalCopy from '../assets/imagesNewsDetails/Oval-Copy.png'
 import Woman_Image from '../assets/imagesNewsDetails/Image.png'
 import zoom_out from '../assets/imagesNewsDetails/zoom-out.png'
 import Coma from '../assets/imagesNewsDetails/Group1.png'
+import Buttons from '../components/buttons/buttons'
 
 
 const ArticleSection = () => {
@@ -88,12 +89,13 @@ const ArticleSection = () => {
                 netus et malesuada fames ac turpis egestas. </p>
 
             <div className="buttons">
-                <button className="btn-theme" type="button">Digital</button>
-                <button className="btn-theme" type="button">School</button>
-                <button className="btn-theme" type="button">It</button>
-                <button className="btn-theme" type="button">Design</button>
-                <button className="btn-theme" type="button">Work</button>
-                <button className="btn-theme" type="button">Tech</button>
+                <Buttons type='grey' text='Digital' showIcon={false} url='/'/>
+                <Buttons type='grey' text='School' showIcon={false} url='/'/>
+                <Buttons type='grey' text='It' showIcon={false} url='/'/>
+                <Buttons type='grey' text='Design' showIcon={false} url='/'/>
+                <Buttons type='grey' text='Work' showIcon={false} url='/'/>
+                <Buttons type='grey' text='Tech' showIcon={false} url='/'/>
+                <Buttons type='grey' text='Digital' showIcon={false} url='/'/>
             </div>
 
         </section>

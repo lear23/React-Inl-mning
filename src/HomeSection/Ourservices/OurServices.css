@@ -37,14 +37,15 @@
       text-align: left;
     }
   }
-  .our-services .row-services h2 {
+  .our-services .row-services h2  {
+    display: block;
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
     font-size: 45px;
     text-align: center;
   }
-  @media (min-width: 1140px) {
-    .our-services .row-services h2 {
+  @media (min-width: 992px) {
+    .our-services .row-services h2  {
       text-align: left;
     }
   }

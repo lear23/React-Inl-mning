@@ -2,6 +2,7 @@ import React from 'react'
 import './ShowCase.css'
 import LineImages from '../../assets/images/Element-header.svg'
 import Manimage from '../../assets/images/Image1.svg'
+import Buttons from '../buttons/Buttons'
 
 const ShowCase = () => {
   return (
@@ -11,10 +12,8 @@ const ShowCase = () => {
             <h1>We provide the best Business solutions</h1>
             <p>Establish your vision and value proposition and turn them into testable prototypes </p>
             <div className="buttons-showcase">
-                <a className="btn-theme" href="consulting.html">Get Consulting<i
-                        className="mindre fi fi-br-arrow-up-right"></i></a>
-                <a className="btn-transparent" href="sercices.html">Learn More<i
-                        className="mindre fi fi-br-arrow-up-right"></i></a>
+              <Buttons type='transparent' text='Get Consulting' url='/services/get-consulting'/>
+              <Buttons type='transparent' text='Learn More' url='/services/consulting'/>
             </div>
             <div className="line2">
                 <img src={LineImages} alt="a line" />

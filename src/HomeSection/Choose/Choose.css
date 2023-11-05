@@ -63,6 +63,7 @@
     }
   }
   .choose .box-1 h2 {
+    display: block;
     text-align: center;
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
