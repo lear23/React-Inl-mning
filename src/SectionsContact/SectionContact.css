@@ -1,7 +1,8 @@
-.container-section {
+  .container-section {
     display: flex;
     flex-direction: column;
   }
+  
   .container-section .container {
     display: block;
     justify-content: center;
@@ -10,6 +11,7 @@
     padding-top: 60px;
     padding-bottom: 30px;
   }
+  
   @media (min-width: 1100px) {
     .container-section .container {
       display: flex;
@@ -19,6 +21,7 @@
       gap: 30px;
     }
   }
+  
   .container-section .container .box1 {
     display: block;
     justify-content: center;
@@ -28,6 +31,7 @@
     margin-bottom: 30px;
     padding-top: 20px;
   }
+  
   @media (min-width: 992px) {
     .container-section .container .box1 {
       display: block;
@@ -38,6 +42,7 @@
       padding: 28px 50px;
     }
   }
+  
   @media (min-width: 1400px) {
     .container-section .container .box1 {
       display: block;
@@ -47,10 +52,12 @@
       padding: 50px 60px;
     }
   }
+  
   .container-section .container .box1 img {
     float: none;
     margin-bottom: 20px;
   }
+  
   @media (min-width: 1400px) {
     .container-section .container .box1 img {
       float: left;
@@ -58,37 +65,46 @@
       margin-bottom: 45px;
     }
   }
+  
   .container-section .container .box1 h2 {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+    text-decoration: none;
   }
+  
   @media (min-width: 1400px) {
     .container-section .container .box1 h2 {
       text-align: left;
     }
   }
-  .container-section .container .box1 a {
+  
+  .container-section .container .box1 p {
     text-align: center;
     font-size: 18px;
     text-decoration: none;
     color: #d1d1d1;
   }
+  
   @media (min-width: 1400px) {
-    .container-section .container .box1 a {
+    .container-section .container .box1 p {
       text-align: left;
     }
   }
-  .container-section .container .box1 a p {
+  
+  .container-section .container .box1 p {
     color: #191919;
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 400;
   }
+  
   .container-section .container .box1:hover {
     background-color: #f9d783;
     box-shadow: 3px 3px 5px 5px rgba(25, 25, 25, 0.3058823529);
   }
+  
   .container-section .container .box1:hover p {
     color: black;
   }
+  

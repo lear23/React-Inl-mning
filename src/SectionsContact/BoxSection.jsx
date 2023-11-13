@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const BoxSection = ({ImageScr, description,title, url, text }) => {
-
-    
+const BoxSection = ({ ImageScr, description, title, url, text }) => {
   return (
-        <div className="box1">
-            <img src={ImageScr} alt={description} />
-            <h2>{title}</h2>
-            <a href={url}>
-                <p>{text}</p>
-            </a>
-        </div>
-  )
-}
+   
+   <div className="box1">
+      <Link to={url} >
+      <img src={ImageScr} alt={description} />
+      </Link>
+      <h2>{title}</h2>
+      <p>{text}</p>
+    </div>
+  );
+};
 
-export default BoxSection
+export default BoxSection;

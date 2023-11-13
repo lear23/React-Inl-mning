@@ -3,7 +3,7 @@ import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import NewsSubHeader from '../components/NewsSubheader/NewsSubHeader'
 import NewsArticle from '../NewsSection/NewsArticle/NewsArticle'
-import SubFooter from '../NewsSection/NewsArticle/SubFooter'
+import SubFooter from '../components/Subfooter/SubFooter'
 
 const News = () => {
   return (
@@ -11,7 +11,7 @@ const News = () => {
       <Header />
       <NewsSubHeader />
       <NewsArticle />
-      <SubFooter />     
+      <SubFooter />
       <Footer />
     </div>
   )
