@@ -1,4 +1,4 @@
-// import React from 'react'
+
 import About from '../HomeSection/About/About.jsx'
 import ArticleCarousel from '../components/ArticlesCarousel/ArticleCarousel.jsx'
 import Choose from '../HomeSection/Choose/Choose.jsx'

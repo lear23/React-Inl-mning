@@ -1,6 +1,7 @@
 article {
     background-color: #ffffff;
     padding: 16px;
+ 
   }
   article .container {
     display: flex;
