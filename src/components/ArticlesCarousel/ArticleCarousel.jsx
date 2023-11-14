@@ -26,7 +26,7 @@ const ArticleCarousel = ({ backgroundColor }) => {
 
   useEffect(() => {
     scrollToTop(); 
-  }, [currentPage]);
+  }, []);
 
   const carouselData = [
     { image: group, title: 'Business', text: 'How To Use Digitalization In The Classroom', description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.' },

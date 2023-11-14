@@ -116,7 +116,7 @@ article {
   }
   article .container .pagination {
     display: none;
-    font-size: 40px;
+    font-size: 25px;
     gap: 20px;
   }
   @media (min-width: 992px) {
@@ -125,7 +125,7 @@ article {
       justify-content: center;
       align-items: center;
       padding-top: 40px;
-      padding-bottom: 0px;
+      padding-bottom: 5px;
       cursor: pointer;
     }
   }
