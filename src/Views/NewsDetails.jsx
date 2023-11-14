@@ -3,7 +3,8 @@ import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import NewsSubHeader from '../components/NewsSubheader/NewsSubHeader'
 import ArticleSection from '../ArticleSection/ArticleSection'
-import ArticleNews from '../components/ArticleNews/ArticleNews'
+import ArticleCarousel from '../components/ArticlesCarousel/ArticleCarousel'
+
 
 const NewsDetails = () => {
   return (
@@ -11,7 +12,7 @@ const NewsDetails = () => {
        <Header />
        <NewsSubHeader />
        <ArticleSection />
-       <ArticleNews backgroundColor="#f0efe9"/>      
+       <ArticleCarousel backgroundColor="#f0efe9"/>
        <Footer />
 
     </div>
