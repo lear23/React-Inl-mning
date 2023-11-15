@@ -168,23 +168,10 @@
       justify-content: left;
       align-items: center;
       gap: 20px;
+     
     }
   }
-  .about .about-company .button-intro .botton-video {
-    gap: 30px;
-  }
-  .about .about-company .button-intro .botton-video .btn-theme-3 {
-    display: inline-block;
-    justify-self: center;
-    align-items: center;
-  }
-  @media (min-width: 992px) {
-    .about .about-company .button-intro .botton-video .btn-theme-3 {
-      display: flex;
-      justify-self: center;
-      align-items: center;
-    }
-  }
+  
   .about .about-company .button-intro .botton-video a {
     font-size: 1.2em;
   }

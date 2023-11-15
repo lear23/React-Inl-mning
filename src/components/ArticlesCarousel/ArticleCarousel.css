@@ -1,6 +1,7 @@
 article {
     background-color: #ffffff;
     padding: 16px;
+    
  
   }
   article .container {
@@ -113,9 +114,13 @@ article {
     font-size: 22px;
     font-family: "DM sans", sans-serif;
     font-weight: 700;
+    text-align: left;
+  }
+  article .container .new-image .items .item p {
+    font-size: 16px;
+    text-align: left;
   }
   article .container .pagination {
-    display: none;
     font-size: 25px;
     gap: 20px;
   }

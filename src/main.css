@@ -15,11 +15,11 @@ body, html {
     color: #191919;
 }
 
-.wrapper{
+/* .wrapper{
     height: 100dvh;
     display: flex;
     flex-direction: column;
-}
+} */
 
 .btn-theme {
     background-color: #f9d783;

@@ -12,7 +12,7 @@ const NewsDetails = () => {
        <Header />
        <NewsSubHeader />
        <ArticleSection />
-       <ArticleCarousel backgroundColor="#f0efe9"/>
+       <ArticleCarousel />
        <Footer />
 
     </div>

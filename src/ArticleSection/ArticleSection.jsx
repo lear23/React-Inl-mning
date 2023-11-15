@@ -5,7 +5,7 @@ import OvalCopy from '../assets/imagesNewsDetails/Oval-Copy.png'
 import Woman_Image from '../assets/imagesNewsDetails/Image.png'
 import zoom_out from '../assets/imagesNewsDetails/zoom-out.png'
 import Coma from '../assets/imagesNewsDetails/Group1.png'
-import Buttons from '../components/buttons/buttons'
+import Buttons from '../components/buttons/Buttons'
 
 
 const ArticleSection = () => {
@@ -100,7 +100,7 @@ const ArticleSection = () => {
 
         </section>
 
-</main>
+    </main>
   )
 }
 

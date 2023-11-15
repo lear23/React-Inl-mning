@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import ApiCard from '../components/ApiCard/ApiCard';  
-// import './NewsApi.css';
 
 function NewsApi() {
   const [users, setUsers] = useState([]);
@@ -32,7 +31,8 @@ function NewsApi() {
           {users.map((user, index) => (
             <ApiCard key={index} {...user} /> 
           ))}
-        </div>        
+        </div>  
+         
       </div>
     </article>
   );
