@@ -95,7 +95,6 @@ const ArticleSection = () => {
                 <Buttons type='grey' text='Design' showIcon={false} url='/'/>
                 <Buttons type='grey' text='Work' showIcon={false} url='/'/>
                 <Buttons type='grey' text='Tech' showIcon={false} url='/'/>
-                <Buttons type='grey' text='Digital' showIcon={false} url='/'/>
             </div>
 
         </section>

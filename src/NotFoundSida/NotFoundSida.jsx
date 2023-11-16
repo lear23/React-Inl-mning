@@ -13,12 +13,10 @@ const NotFoundSida = () => {
     <main className='container'>
       <div className='container-notfound'>
         <h2 >404 Page Not Found</h2>
-        <div className="dead">
-         
+        <div className="dead">         
            <img src={Dead} alt="Dead image" />
         </div>
-        <div className="notfound">
-           
+        <div className="notfound">           
              <Link className="btn-theme" onClick={handleReturnClick} to="/">Klicka Här För Att Återvända<i className="mindre fi fi-br-arrow-up-right"></i></Link>
         </div>
         

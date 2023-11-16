@@ -8,6 +8,7 @@
     padding: 16px;
     padding-top: 100px;
     padding-bottom: 40px;
+    z-index: 0;
   }
   .subheader a {
     text-decoration: none;
@@ -29,6 +30,7 @@
     .line {
       display: flex;
       position: absolute;
+      z-index: -1;
     }
   }
   

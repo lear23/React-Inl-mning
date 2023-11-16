@@ -7,7 +7,7 @@ const SubHeader = () => {
   return (
     <section className="subheader">        
 
-        <SectionSubheader url='./Home' url2='./Contacts' text="Let's Connect" title='Home' title2='Contacts' imageSrc={Rectangle} />
+        <SectionSubheader url='/' url2='./Contacts' text="Let's Connect" title='Home' title2='Contacts' imageSrc={Rectangle} />
    
     </section>
   );

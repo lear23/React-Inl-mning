@@ -5,7 +5,6 @@ import NewsSubHeader from '../components/NewsSubheader/NewsSubHeader'
 import ArticleSection from '../ArticleSection/ArticleSection'
 import ArticleCarousel from '../components/ArticlesCarousel/ArticleCarousel'
 
-
 const NewsDetails = () => {
   return (
     <div className="wrapper">

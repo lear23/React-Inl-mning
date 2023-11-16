@@ -7,8 +7,6 @@ import FormSection from '../SectionsContact/FormSection/FormSection'
 import MapSection from '../SectionsContact/MapSection'
 
 
-
-
 const Contacts = () => {
   return (
   <div className="wrapper">
